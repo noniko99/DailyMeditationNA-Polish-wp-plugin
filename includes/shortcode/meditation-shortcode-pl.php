@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 if (!defined('ABSPATH')) {
     exit;
@@ -152,7 +152,7 @@ function dm_shortcode()
 
 
             <a 
-                href="https://github.com/noniko99/DailyMeditationNA-Polish"
+                href="https://github.com/noniko99/DailyMeditationNA-Polish-wp-plugin"
                 target="_blank"
                 rel="noopener noreferrer"
             >
