@@ -46,12 +46,12 @@ function dm_dashboard_page() {
             type="text"
             class="regular-text code"
             readonly
-            value="[meditation_today_pl]"
+            value="[daily_meditation_pl]"
             onclick="this.select();">
 
         <p>lub</p>
 
-        <pre><code>[meditation_today_pl]</code></pre>
+        <pre><code>[daily_meditation_pl]</code></pre>
 
         <hr>
 

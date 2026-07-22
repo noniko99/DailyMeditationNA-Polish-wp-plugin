@@ -1,11 +1,45 @@
-﻿-- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: mysql8
--- Generation Time: Lip 22, 2026 at 03:22 PM
+-- Generation Time: Lip 22, 2026 at 06:28 PM
 -- Wersja serwera: 8.0.33-25
 -- Wersja PHP: 8.2.29
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `01212618_c6dbbd40`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `meditations_pl`
+--
+
+CREATE TABLE `meditations_pl` (
+  `id` int UNSIGNED NOT NULL,
+  `date` varchar(5) COLLATE utf8mb4_general_ci NOT NULL,
+  `med_day` varchar(100) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `med_title` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `med_page` varchar(50) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `meditation` text COLLATE utf8mb4_general_ci,
+  `today_note` text COLLATE utf8mb4_general_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `meditations_pl`
+--
 
 INSERT INTO `meditations_pl` (`id`, `date`, `med_day`, `med_title`, `med_page`, `meditation`, `today_note`) VALUES
 (1, '01-01', '1 stycznia', 'Czujność', NULL, '„Zachowujemy to, co mamy tylko dzięki czujności...”  \r\n\r\n~Tekst Podstawowy \r\n\r\nW jaki sposób zachowujemy czujność w zdrowieniu? W pierwszej kolejności, poprzez uświadomienie sobie, że jesteśmy chorzy na chorobę, która pozostanie z nami do końca życia. Bez względu na to, jak długo jesteśmy czyści, jak bardzo nasze życie zmieniło się na lepsze lub jak wielka jest nasza przemiana duchowa, nadal jesteśmy uzależnieni. Nasza choroba nieustannie czyha i jest gotowa uruchomić zastawioną pułapkę, jeśli tylko damy jej ku temu sposobność. Zachowywanie czujności jest więc naszym codziennym głównym zadaniem. Staramy się być stale czujni i gotowi uporać się z oznakami nadchodzących kłopotów. Nie oznacza to jednak, że ciągle powinniśmy żyć w irracjonalnym strachu przed tym, że jeśli przestaniemy choć na chwilę mieć się na baczności, to spotka nas coś strasznego. Powinniśmy po prostu ciągle zachowywać podstawowe środki ostrożności. Codzienna modlitwa, regularne uczestnictwo w mityngach i świadome nie narażanie na szwank naszych duchowych zasad w celu ułatwienia sobie życia - to podstawowe akty czujności. Dokonujemy obrachunku moralnego, gdy jest to konieczne, dzielimy się z innymi, gdy jesteśmy o to proszeni i z troską dbamy o nasze zdrowienie. Jednak, przede wszystkim, powinniśmy być uważni! Wytchnienie od naszego uzależnienia dostajemy tylko na jeden dzień i trwa to tak długo, jak długo pozostajemy czujni. Każdego dnia wprowadzamy zasady zdrowienia we wszystko, co robimy i codziennie wieczorem dziękujemy naszej Sile Wyższej za kolejny czysty dzień.', 'Będę czujny, robiąc wszystko co konieczne, aby chronić moje zdrowienie.'),
@@ -386,3 +420,17 @@ INSERT INTO `meditations_pl` (`id`, `date`, `med_day`, `med_title`, `med_page`, 
 (365, '12-30', '30 grudnia', 'Działanie i modlitwa\r\n', NULL, '„... wzrastanie nie jest efektem dobrych chęci, lecz działania i modlitwy.”  \r\n\r\n~Tekst Podstawowy  \r\n\r\nCzasami, wydaje się, że nasze zdrowienie postępuje zbyt wolno. Szamoczemy się z krokami, zmagamy się ciągle z tymi samymi problemami, dzień po dniu cierpimy z powodu tych samych nieprzyjemnych uczuć. Chcielibyśmy, aby nasze zdrowienie postępowało nieco szybciej, żebyśmy w końcu mogli znaleźć trochę wytchnienia! Same chęci nie przynoszą rezultatów w zdrowieniu; to nie jest program magii. Gdyby uzależnienie mogło być wyleczone samymi tylko chęciami, wszyscy bylibyśmy już dawno zdrowi. To, co naprawdę przynosi nam ulgę, to działanie i modlitwa. NA jest skuteczne w przypadku tak wielu uzależnionych, ponieważ jest starannie opracowanym programem działania i modlitwy. Czynności, które wykonujemy w każdym z kroków, wnoszą coraz więcej zdrowienia do każdej sfery naszego życia. Modlitwa zaś podtrzymuje nasz związek z Siłą Wyższą. Razem, działanie i modlitwa, zapewniają nam dobrą podstawę naszego zdrowienia.', 'Moje zdrowienie jest zbyt cenne, by ograniczyć się tylko chęciami. Dzisiaj jest dobry dzień na działanie i modlitwę.'),
 (366, '12-31', '31 grudnia', 'Służyć', NULL, '„Praca z innymi jest tylko początkiem służby.“  \r\n\r\n~Tekst Podstawowy  \r\n\r\nTeraz, zdrowiejemy. Żyjąc programem, osiągnęliśmy w naszym życiu pewną stabilizację. Nasza wiara w Siłę Wyższą wzrosła, a nasze duchowe przebudzenie postępuje. I co teraz? Czy usiądziemy i w spokoju będziemy się tym rozkoszować? Oczywiście, że nie! Odkrywamy nowe sposoby służenia. Jesteśmy skłonni myśleć o służbie, jako o służeniu w jakimś komitecie lub jako o pozycji na którymś z poziomów w strukturach NA. Jednak służba wychodzi daleko poza takie rozumienie. W rzeczywistości, możemy odkryć możliwości służenia we wszystkich obszarach naszego życia. Nasza praca, bez względu na to, jaki zawód wykonujemy, jest formą służby na rzecz społeczeństwa. Praca, którą wykonujemy w domu, jest służbą wobec naszych rodzin. Być może zajmujemy się też wolontariatem, w którejś z dziedzin życia społecznego. I jakżeż wiele zmian powodują nasze wysiłki w służeniu! Jeśli w to wątpimy, spróbujmy sobie wyobrazić, jaki byłby świat, gdyby nikt nie zadawał sobie trudu służenia innym. Nasza praca służy ludzkości. Posłanie, które niesiemy, wychodzi poza pomieszczenia, w których odbywają się mityngi i dotyczy wszystkiego, co robimy.', 'Będę poszukiwać możliwości służenia we wszystkim, co robię.');
 
+--
+-- Indeksy dla zrzutów tabel
+--
+
+--
+-- Indeksy dla tabeli `meditations_pl`
+--
+ALTER TABLE `meditations_pl`
+  ADD PRIMARY KEY (`id`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

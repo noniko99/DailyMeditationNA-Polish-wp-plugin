@@ -1,5 +1,4 @@
-﻿<?php
-
+<?php
 if (!defined('ABSPATH')) {
     exit;
 }
@@ -196,7 +195,7 @@ function dm_shortcode()
 
 add_shortcode(
 
-    'meditation_today_pl',
+    'daily_meditation_pl',
 
     'dm_shortcode'
 

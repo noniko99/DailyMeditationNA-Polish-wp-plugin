@@ -12,7 +12,7 @@ class DM_JSON_Updater {
     private $current_version;
 
     private $update_url =
-    'https://raw.githubusercontent.com/noniko99/Daily.Meditation.NA.-.Polish-wp-plugin-/refs/heads/UPDATE/update.json';
+    'https://raw.githubusercontent.com/noniko99/DailyMeditationNA-Polish-wp-plugin/refs/heads/UPDATE/update.json';
 
 
 
