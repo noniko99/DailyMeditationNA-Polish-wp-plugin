@@ -8,7 +8,7 @@
     "requires_php": "7.4",
     "sections": {
         "description": "Daily Meditation NA - Polish to wtyczka WordPress umożliwiająca automatyczne wyświetlanie codziennej medytacji w języku polskim na podstawie danych zapisanych w bazie danych.",
-        "changelog": "<h3>Version 1.0.0</h3>,
+        "changelog": "<h3>Version 1.0.0</h3>",
         "installation": "<h3>Instalacja</h3><p>Po aktywacji wtyczka automatycznie tworzy wymaganą tabelę w bazie danych oraz importuje dane z pliku SQL. Aby wyświetlić medytację, użyj shortcode:</p><code>[daily_meditation_pl]</code>"
     }
 }
