@@ -1,0 +1,56 @@
+.daily-meditation {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.med-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.med-logo {
+    margin-left: auto;
+}
+
+.med-logo img {
+    object-fit: contain;
+    transform: scaleX(-1);
+}
+
+.med-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.today-note {
+    margin-top: 30px;
+}
+
+.copyright {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.dm-footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+}
+
+.dm-footer a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.dm-footer a:hover {
+    text-decoration: underline;
+}
